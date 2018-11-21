@@ -26,8 +26,9 @@
 		int res = 1;
 		for (int i = 0; i < a; i++)
 		{
-			res += res;
+			res += i;
 		}
+		return res;
 	}
 
 	
